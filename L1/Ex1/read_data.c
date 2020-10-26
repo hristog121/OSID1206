@@ -1,3 +1,6 @@
+/*
+This is the code for task 1.2 "Pushing things on the stack."
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>

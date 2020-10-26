@@ -1,3 +1,7 @@
+/*
+This is the code for task 2.3 "Pushing things on the stack."
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -6,6 +10,8 @@
 // Procedure that do all the printing
 void zot(unsigned long *stop){
     unsigned long r = 0x3;
+    printf("The address of 'stop' is: %p\n",&stop);
+    printf("The address of r is: %p\n", &r);
     unsigned long *i;
     for(i = &r; i <= stop; i++){
         printf("Address: %p     0x%lx\n", i, *i);
