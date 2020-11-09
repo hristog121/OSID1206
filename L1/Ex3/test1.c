@@ -23,8 +23,9 @@ int main(){
     return(1);
     }
 
-    while(count !=4){
-        printf("I've had enough!\n");
-        return(0);
+    while(count != 4){
+       
     }
+     printf("I've had enough!\n");
+        return(0);
 }
